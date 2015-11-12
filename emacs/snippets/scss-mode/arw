@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: @at-root(with: ...)
+# key: arw
+# binding: direct-keybinding
+# --
+@at-root (with: ${1:rule}) {
+  $0
+}

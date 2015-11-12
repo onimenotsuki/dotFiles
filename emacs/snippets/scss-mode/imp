@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: @import "library";
+# key: imp
+# binding: direct-keybinding
+# --
+@import "$0";

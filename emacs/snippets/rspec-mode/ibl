@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: it_behaves_like "..."
+# key: ibl
+# binding: direct-keybinding
+# --
+it_behaves_like '$0'

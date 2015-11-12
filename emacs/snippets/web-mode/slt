@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: <%= stylesheet_link_tag ... %>
+# key: slt
+# binding: direct-keybinding
+# --
+<%= stylesheet_link_tag $0 %>

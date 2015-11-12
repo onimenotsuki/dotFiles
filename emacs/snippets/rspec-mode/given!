@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: given!(..) {...}
+# key: given!
+# binding: direct-keybinding
+# --
+given!(:${1:var}) { $0 }

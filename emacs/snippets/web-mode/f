@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: form arguments
+# key: f
+# binding: direct-keybinding
+# --
+<%= f.$1 %>

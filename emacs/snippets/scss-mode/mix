@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: @mixin function ($args) {...}
+# key: mix
+# binding: direct-keybinding
+# --
+@mixin ${1:function-name}(${2:args}) {
+  $0
+}

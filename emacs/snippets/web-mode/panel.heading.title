@@ -1,0 +1,15 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: bootstrap-panel-default
+# key: panel.heading.title
+# binding: direct-keybinding
+# --
+<div class="panel panel-default">
+    <div class="panel-heading">
+         <div class="panel-title">
+              ${1:title}
+         </div>
+    </div>
+    <div class="panel-body">
+        ${2:body}
+    </div>
+</div>

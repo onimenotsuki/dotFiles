@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: @keyframes name {...} 
+# key: kf
+# binding: direct-keybinding
+# --
+@keyframes ${1:name} {
+  $0
+}

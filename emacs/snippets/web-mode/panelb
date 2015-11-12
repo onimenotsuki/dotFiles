@@ -1,0 +1,13 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: .panel.panel-{theme}
+# key: panelb
+# binding: direct-keybinding
+# --
+<div class="panel panel-${1:default}">
+  <div class="panel-heading">
+       ${2:panel heading}
+  </div>
+  <div class="panel-body">
+       ${3:panel body}
+  </div>
+</div>

@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: attr_writer
+# key: aw
+# binding: direct-keybinding
+# --
+attr_writer :$0

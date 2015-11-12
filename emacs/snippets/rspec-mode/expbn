@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: expect { ... }.not_to
+# key: expbn
+# binding: direct-keybinding
+# --
+expect { $1 }.not_to $0

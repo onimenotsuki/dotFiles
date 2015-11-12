@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: flash.now[:option] = "message"
+# key: flashn
+# binding: direct-keybinding
+# --
+flash.now[:${1:option}] = "$2"$0

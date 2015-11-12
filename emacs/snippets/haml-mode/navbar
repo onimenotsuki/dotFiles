@@ -1,0 +1,20 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# contributor: Edgar Talledos <onimenotsuki@gmail.com>
+# name: bootstrap-navbar
+# key: navbar
+# binding: direct-keybinding
+# expand-var: ((yas-indent-line 'fixed))
+# --
+%nav.navbar.navbar-default.navbar-fixed-top
+  .container
+    .navbar-header
+      %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      = link_to 'Home', root_path, class: 'navbar-brand'
+    .collapse.navbar-collapse
+      %ul.nav.navbar-nav.navbar-${1:orientation}
+        = render 'layouts/navigation_links'
+$0

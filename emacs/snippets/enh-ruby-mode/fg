@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: FactoryGirl.define
+# key: fg
+# binding: direct-keybinding
+# --
+FactoryGirl.define do
+  $0
+end

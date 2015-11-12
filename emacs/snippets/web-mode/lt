@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: <$= link_to =>
+# key: lt
+# binding: direct-keybinding
+# --
+<%= link_to ${1:text}, $2_path %>

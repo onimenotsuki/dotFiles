@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: context "modifier" do ... end
+# key: context
+# binding: direct-keybinding
+# --
+context '${1:modifier}' do
+  $0
+end

@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: gprod
+# key: gprod
+# binding: direct-keybinding
+# --
+group :production do
+  $1
+end

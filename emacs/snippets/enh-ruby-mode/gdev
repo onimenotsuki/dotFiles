@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: group :development
+# key: gdev
+# binding: direct-keybinding
+# --
+group :development do
+  $1
+end

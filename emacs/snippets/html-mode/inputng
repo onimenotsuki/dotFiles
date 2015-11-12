@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: input ng-model
+# key: inputng
+# binding: direct-keybinding
+# --
+<input type="$1" ng-model="$2"/>$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: <% javascript_include_tag ... %>
+# key: jit
+# binding: direct-keybinding
+# --
+<%= javascript_include_tag $0 %>

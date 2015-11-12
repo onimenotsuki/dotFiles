@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: form_for
+# key: ff
+# binding: direct-keybinding
+# --
+<%= form_for ${1:arguments} do |f| %>
+  $0
+<% end %>

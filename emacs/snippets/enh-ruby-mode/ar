@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: attr_reader
+# key: ar
+# binding: direct-keybinding
+# --
+attr_reader :$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: params.require ...
+# key: params
+# binding: direct-keybinding
+# --
+params.require($1).permit($0)

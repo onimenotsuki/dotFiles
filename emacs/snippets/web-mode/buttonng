@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: buttonng
+# key: buttonng
+# binding: direct-keybinding
+# --
+<button ng-click="${1:function}()">${2:text}</button>

@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: require "rails_helper"
+# key: rh
+# binding: direct-keybinding
+# --
+require 'rails_helper'
+$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: gem 'name', 'version'
+# key: gem
+# binding: direct-keybinding
+# --
+gem '${1:name}', '${2:version}'

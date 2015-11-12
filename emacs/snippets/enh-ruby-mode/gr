@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: gr
+# key: gr
+# binding: direct-keybinding
+# --
+group $1 do
+  $0
+end

@@ -1,0 +1,13 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: document in spanish
+# key: esp
+# binding: direct-keybinding
+# --
+\documentclass[letterpaper,12pt]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc} 
+\usepackage[spanish,activeacute]{babel}
+
+\begin{document}
+$0
+\end{document}

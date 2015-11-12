@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: shared_examples_for "..." do ... end
+# key: sef
+# binding: direct-keybinding
+# --
+shared_examples_for '$1' do
+  $0
+end
