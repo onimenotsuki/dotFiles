@@ -1,0 +1,68 @@
+{
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.48,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 653,
+               "width": 754,
+               "x": 0,
+               "y": 0
+            },
+            "percent": 0.85,
+            "swallows": [
+               {
+               "class": "^Emacs$",
+               "instance": "^emacs$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 308,
+               "width": 560,
+               "x": 0,
+               "y": 0
+            },
+            "name": "urxvt",
+            "percent": 0.15,
+            "swallows": [
+               {
+               "class": "^URxvt$",
+               "instance": "^urxvt$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 600,
+       "width": 800,
+       "x": 0,
+       "y": 0
+    },
+    "percent": 0.52,
+    "swallows": [
+       {
+       "class": "^Zathura$",
+       "instance": "^zathura$"
+       }
+    ],
+    "type": "con"
+}

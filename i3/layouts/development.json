@@ -1,0 +1,103 @@
+// vim:ts=4:sw=4:et
+{
+  // splitv split container with 2 children
+  "border": "pixel",
+  "floating": "auto_off",
+  "layout": "splitv",
+  "percent": 0.67,
+  "type": "con",
+  "nodes": [
+    {
+      // tabbed split container with 2 children
+      "border": "pixel",
+      "floating": "auto_off",
+      "layout": "tabbed",
+      "percent": 0.84,
+      "type": "con",
+      "nodes": [
+        {
+          "border": "pixel",
+          "current_border_width": 2,
+          "floating": "auto_off",
+          "geometry": {
+            "height": 706,
+            "width": 430,
+            "x": 930,
+            "y": 56
+          },
+          "percent": 0.5,
+          "swallows": [
+            {
+              "class": "^Chromium$",
+              "instance": "^Chromium$"
+            }
+          ],
+          "type": "con"
+        },
+        {
+          "border": "pixel",
+          "current_border_width": 2,
+          "floating": "auto_off",
+          "geometry": {
+            "height": 653,
+            "width": 754,
+            "x": 0,
+            "y": 0
+          },
+          "percent": 0.5,
+          "swallows": [
+            {
+              "class": "^Emacs$",
+              "instance": "^emacs$"
+              // "title": "^EMACS\\ \\ $",
+              // "transient_for": "^$"
+            }
+          ],
+          "type": "con"
+        }
+      ]
+    },
+    {
+      "border": "pixel",
+      "current_border_width": 2,
+      "floating": "auto_off",
+      "geometry": {
+        "height": 308,
+        "width": 560,
+        "x": 0,
+        "y": 0
+      },
+      "name": "urxvt",
+      "percent": 0.16,
+      "swallows": [
+        {
+          "class": "^URxvt$",
+          "instance": "^urxvt$"
+          // "title": "^urxvt$",
+          // "transient_for": "^$"
+        }
+      ],
+      "type": "con"
+    }
+  ]
+}
+
+{
+  "border": "pixel",
+  "current_border_width": 2,
+  "floating": "auto_off",
+  "geometry": {
+    "height": 600,
+    "width": 1334,
+    "x": 16,
+    "y": 46
+  },
+  "percent": 0.33,
+  "swallows": [
+    {
+      "class": "^Chromium$",
+      "instance": "^Chromium$"
+    }
+  ],
+  "type": "con"
+}

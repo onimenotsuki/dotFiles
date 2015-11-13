@@ -1,0 +1,78 @@
+// vim:ts=4:sw=4:et
+{
+  // splitv split container with 2 children
+  "border": "pixel",
+  "floating": "auto_off",
+  "layout": "splitv",
+  "percent": 0.48,
+  "type": "con",
+  "nodes": [
+    {
+      "border": "pixel",
+      "current_border_width": 2,
+      "floating": "auto_off",
+      "geometry": {
+        "height": 653,
+        "width": 754,
+        "x": 0,
+        "y": 0
+      },
+      "percent": 0.82,
+      "swallows": [
+        {
+          "class": "^Emacs$",
+          "instance": "^emacs$"
+          // "title": "^EMACS\\ \\ $",
+          // "transient_for": "^$"
+        }
+      ],
+      "type": "con"
+    },
+    {
+      "border": "pixel",
+      "current_border_width": 2,
+      "floating": "auto_off",
+      "geometry": {
+        "height": 308,
+        "width": 560,
+        "x": 0,
+        "y": 0
+      },
+      "name": "urxvt",
+      "percent": 0.18,
+      "swallows": [
+        {
+          "class": "^URxvt$",
+          "instance": "^urxvt$"
+          // "title": "^urxvt$",
+          // "transient_for": "^$"
+        }
+      ],
+      "type": "con"
+    }
+  ]
+}
+
+{
+  "border": "pixel",
+  "current_border_width": 2,
+  "floating": "auto_off",
+  "geometry": {
+    "height": 692,
+    "width": 1334,
+    "x": 26,
+    "y": 70
+  },
+  "percent": 0.52,
+  "swallows": [
+    {
+      "class": "^Chromium$",
+      "instance": "^Chromium$"
+      // "title": "^Overview\\ of\\ ActiveRecord\\ \\|\\ ActiveRecord\\ Basics\\ \\|\\ Treehouse\\ \\-\\ Chromium$",
+      // "transient_for": "^$",
+      // "window_role": "^browser$"
+    }
+  ],
+  "type": "con"
+}
+
