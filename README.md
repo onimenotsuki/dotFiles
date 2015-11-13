@@ -11,6 +11,7 @@ Remember when bootstrap configuration file in spacemacs, modify the part
 
 ## i3 Window Manager
 Install i3-gaps-git instead of common package for the configuration file or comment next lines
+
     set $default_gaps_inner 5
     set $default_gaps_outer 10
     gaps inner $default_gaps_inner
